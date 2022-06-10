@@ -11,8 +11,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-graphql',
       options: {
-        typeName: 'Countries',
-        fieldName: 'countries',
+        typeName: 'DSGCountries',
+        fieldName: 'dsgcountries',
         url: 'https://countries.trevorblades.com/',
         transformSchema: (args) => {
           const {
